@@ -1,0 +1,13 @@
+{
+  "name": "parfum",
+  "version": "0.1.0",
+  "repository": "https://github.com/fernandocamargo/parfum.git",
+  "author": "Fernando Camargo Del Buono <camargodelbuono@gmail.com>",
+  "scripts": {
+    "postinstall": "concurrently \"cd ./server && npm install\" \"cd ./client && npm install\"",
+    "start": "concurrently \"cd ./server && npm run start\" \"cd ./client && npm run start\""
+  },
+  "devDependencies": {
+    "concurrently": "^5.0.0"
+  }
+}

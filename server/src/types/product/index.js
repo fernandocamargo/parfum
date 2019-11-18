@@ -1,0 +1,13 @@
+export default `
+  type Product {
+    id: String
+    name: String
+    slug: String
+    brand: String
+    type: String
+    image: String
+    price: Int
+    size: String
+    rating: Int
+  }
+`;

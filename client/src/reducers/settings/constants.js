@@ -1,0 +1,1 @@
+export const TOGGLE_MARK_AS_STARRED = 'settings/TOGGLE_MARK_AS_STARRED';

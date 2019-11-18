@@ -1,0 +1,22 @@
+{
+  "name": "parfum-server",
+  "version": "0.1.0",
+  "private": true,
+  "port": 1337,
+  "dependencies": {
+    "apollo-server": "^2.9.9",
+    "graphql": "^14.5.8",
+    "immutability-helper": "^3.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/node": "^7.7.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.6.2",
+    "@babel/preset-env": "^7.7.1",
+    "babel-plugin-module-resolver": "^3.2.0",
+    "nodemon": "^1.19.4"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node ./src/index.js"
+  }
+}
